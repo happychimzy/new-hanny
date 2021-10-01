@@ -1,0 +1,94 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-bg {
+    background-image: url(../images/firstbackground.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-bg {
+    /* background-image: url(../images/second-bg.png); */
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav-link-item :hover {
+    color: red;
+}
+
+.man {
+    background-image: url(../images/man.jpg);
+    background-repeat: no-repeat;
+}
+
+.man-alphabets {
+    /* background-image: url(../images/man-alphabet.jpg); */
+}
+
+.images-pics {
+    
+}
+
+.contact {
+    height: 100vh;
+}
+.contact-text {
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    /* margin: 1rem; */
+
+}
+
+.portfolio {
+    height: 100vh;
+    width: 100%;
+    background-color: rosybrown;
+    align-items: center;
+    overflow: hidden;
+}
+
+.row-100 {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.row-100 p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem;
+}
+
+ 
+@media screen and (max-width: 375px) {
+    .portfolio .row-100 {
+        display: flex;
+        flex-direction: column;  
+        margin: 0 auto !important;
+        /* background-position: 50% 50% !important; */
+        
+    }
+
+    html {
+        font-size: 15px;
+    
+    }
+
+    .row-100 p {
+        flex-direction: column;
+    }
+}
