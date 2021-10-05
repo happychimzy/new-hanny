@@ -39,13 +39,11 @@
     width: 100%;
     background-color: lightcoral;
     color: white;
-    background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding: 50px;
     font-size: 25px;
     font-weight: 700;
-    /* margin: 1rem; */
 
 }
 
